@@ -77,6 +77,9 @@ class OPU():
         deg_LL = str_bytes[5]
         deg = (deg_HH*256 + deg_LL) / 100
         return deg
+    
+    def verification(self, response, query):
+        pass
 
 
 if __name__ == '__main__':
